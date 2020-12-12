@@ -86,7 +86,9 @@ let findEmployeeByFirstName = function(srcArray, firstName) {
 }
 
 let calculatePayroll = function(empArray) {
-  
+  return empArray.reduce(function(memo, record) {
+    
+  })
 }
 
 
